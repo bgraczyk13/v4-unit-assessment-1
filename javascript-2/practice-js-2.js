@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+let gitDefinition = "A version control system used to track the progress in our projects"
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+let gitHubDefinition = "The website where our git repositories are stored"
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -35,6 +39,11 @@
 
 //CODE HERE
 
+let init = {
+    description: "Initializes the webpage",
+    code: "git init",
+}
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,6 +51,11 @@
 */
 
 //CODE HERE
+
+let clone = {
+    description: "Allows us to make copies of existing repositories on Github",
+    code: "git clone",
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,6 +65,11 @@
 
 //CODE HERE
 
+let status = {
+    description: "Checks which stage of the process you are on to push work to Github",
+    code: "git status",
+}
+
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,6 +77,11 @@
 */
 
 //CODE HERE
+
+let add = {
+    description: "Tells git to track any changes that have been made",
+    code: "git add .",
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -67,6 +91,11 @@
 
 //CODE HERE
 
+let commit = {
+    description: "Saves code and commits changes before pushing to Github",
+    code: "git commit -m",
+}
+
 //////////////////PROBLEM 8////////////////////
 /*
     Create an object called 'addRemote' with 'description' and 'code' properties
@@ -75,6 +104,12 @@
 
 //CODE HERE
 
+let addRemote = {
+    description: "Adds a location for the git repository",
+    code: "git remote add origin",
+}
+
+
 //////////////////PROBLEM 9////////////////////
 /*
     Create an object called 'push' with 'description' and 'code' properties 
@@ -82,3 +117,8 @@
 */
 
 //CODE HERE
+
+let push = {
+    description: "Pushes code to Github repository after staging and committing",
+    code: "git push",
+}

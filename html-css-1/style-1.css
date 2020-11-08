@@ -1,5 +1,18 @@
-div {
-    height: 10vh;
+html {
+    height: 100vh;
     width: 100vw; 
-    background: salmon
+    background-color: black;
+}
+
+body {
+    height: 100vh;
+    width: 55vw;
+    background-color: white; 
+}
+
+header {
+    height: 17vh;
+    width: 55vw;
+    background-color: salmon;
+    border: black
 }
